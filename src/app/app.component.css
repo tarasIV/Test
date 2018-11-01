@@ -1,0 +1,45 @@
+body {
+    background-image:url('background-home.jpg');
+    height:600px;
+    padding: 0px;
+    margin: 0px;
+}
+/*.navbar {
+    background: rgb(107, 89, 107);
+    height:50px;
+    
+}
+a {
+    color:white;
+    text-decoration:none;
+    
+}
+#left-nav {
+    float:left;
+    font-size:25px;
+    margin-top:15px;
+}
+#right-nav {
+    float:right;
+    font-size:25px;
+    margin-top:-5px;
+}
+#right-nav li{
+    display: inline-block;
+    margin:20px;
+    
+} */
+
+footer {
+    clear:both;
+    text-align:center;
+    background:grey;
+    color:white;
+    padding:15px;
+    margin-top:-110px;
+}
+
+.items {
+    list-style-type:none;
+    
+}

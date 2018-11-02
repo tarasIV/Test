@@ -1,45 +1,25 @@
 body {
-    background-image:url('background-home.jpg');
-    height:600px;
-    padding: 0px;
-    margin: 0px;
-}
-/*.navbar {
-    background: rgb(107, 89, 107);
-    height:50px;
-    
+    width:300px;
+    margin:20px auto;
+   }
+
+.red {
+    background:grey;
 }
 a {
-    color:white;
     text-decoration:none;
-    
+    font-size:15px;
+    margin-left:60px;
 }
-#left-nav {
-    float:left;
-    font-size:25px;
-    margin-top:15px;
+a:hover {
+    color:red;
 }
-#right-nav {
-    float:right;
-    font-size:25px;
-    margin-top:-5px;
+.ui-button-rounded {
+    width:200px;
+    background-color:rgb(53, 53, 141);
+    margin:25px ;
+   
 }
-#right-nav li{
-    display: inline-block;
-    margin:20px;
-    
-} */
-
-footer {
-    clear:both;
+h1 {
     text-align:center;
-    background:grey;
-    color:white;
-    padding:15px;
-    margin-top:-110px;
-}
-
-.items {
-    list-style-type:none;
-    
 }

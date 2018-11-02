@@ -1,31 +1,25 @@
 <body>
-  <p-tabMenu [model]="items"></p-tabMenu> 
-<!--<nav class="navbar">
-  <header >
-    <ul id="left-nav">
-  <li><a href="" class="logo">Logo TarasIv</a></li>
-  </ul>
-<ul class="my-nav" id="right-nav"> 
-  <li>
-    <a routerLink="/home"class="nav-link">Home</a>
-  </li>
-  <li>
-    <a routerLink="/about" class="nav-link">About</a>
-  </li>
-  <li>
-    <a routerLink="/hobbies"class="nav-link">Hobbies</a>
-  </li>
-  <li>
-    <a href="#" class="nav-link">Contacts</a>
-  </li>
-  <li>
-    <a href="#" class="nav-link">Visited countries</a>
-  </li>
-</ul>
-</header>
-</nav>-->
-  <router-outlet></router-outlet>
+  <p-card class="red">
+    
+   <h1> Login Here</h1>
+    <form>
+        
+        <h3>Username</h3>
+      <span class="ui-float-label">
+      <input id="float-input" type="text" size="30" pInputText>
+      <label for="float-input">Username</label>
+           </span>
+           
+           
+          <h3>Password</h3>
+          <span class="ui-float-label">
+      <input id="float-input" type="text" size="30" pInputText>
+      <label for="float-input">Password</label>
+          </span>
+          <button pButton type="button" label="Submit" class="ui-button-rounded"></button>
+          
+             </form>
+          <a href="#">Forget Password?</a>
+  </p-card>
+
 </body>
-<footer>
-  &copy;2018 by Taras Ivanytskyi developer
-</footer>
